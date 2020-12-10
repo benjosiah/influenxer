@@ -43,123 +43,176 @@
         <span class="header">Influencers</span>
         <hr>
         <b-row align-h="center">
-          <b-col md="3" class="inf">
+<b-col md="3" class="inf"> 
             <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            <hr>
-            <div>
-              
             </div>
+            <div class="se">
             <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
             <span>popstar tuyum</span>
+            </div>
             </b-card>
           </b-col>
           <b-col md="3" class="inf">
             <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            <hr>
-            <div>
-              
             </div>
+            
+            <div class="se">
             <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
             <span>popstar tuyum</span>
+            </div>
             </b-card>
           </b-col>
-          <b-col md="3" class="inf">
+          <b-col sm="3" class="inf">
             <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            <hr>
-            <div>
-              
             </div>
+            <div class="se">
             <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
             <span>popstar tuyum</span>
-            </b-card>
-             
-          </b-col>
-          <b-col md="3" class="inf">
-            <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            <hr>
-            <div>
-
             </div>
-            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
-            <span>popstar tuyum</span>
             </b-card>
           </b-col>
           <b-col md="3" class="inf"> 
             <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            <hr>
-            <div>
-              
             </div>
+            <div class="se">
             <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
             <span>popstar tuyum</span>
+            </div>
             </b-card>
           </b-col>
           <b-col md="3" class="inf">
             <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            <hr>
-            <div>
-              
             </div>
+            
+            <div class="se">
             <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
             <span>popstar tuyum</span>
-            </b-card>
-          </b-col>
-          <b-col sm="3" class="inf">
-            <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            
-            <hr>
-            <div>
-              
             </div>
-            <span class="im"><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
-            <span>popstar tuyum</span>
             </b-card>
           </b-col>
           <b-col sm="3" class="inf">
             <b-card class="text">
-            <h4>Name</h4> 
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
+            </div>
+            <div class="se">
+            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
+            <span>popstar tuyum</span>
+            </div>
+            </b-card>
+          </b-col>
+          <b-col md="3" class="inf"> 
+            <b-card class="text">
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
+            </div>
+            <div class="se">
+            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
+            <span>popstar tuyum</span>
+            </div>
+            </b-card>
+          </b-col>
+          <b-col md="3" class="inf">
+            <b-card class="text">
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
+            </div>
             
+            <div class="se">
+            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
+            <span>popstar tuyum</span>
+            </div>
+            </b-card>
+          </b-col>
+          <b-col sm="3" class="inf">
+            <b-card class="text">
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
+            </div>
+            <div class="se">
+            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
+            <span>popstar tuyum</span>
+            </div>
+            </b-card>
+          </b-col>
+          <b-col md="3" class="inf"> 
+            <b-card class="text">
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
+            </div>
+            <div class="se">
+            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
+            <span>popstar tuyum</span>
+            </div>
+            </b-card>
+          </b-col>
+          <b-col md="3" class="inf">
+            <b-card class="text">
+            <h4>Joe Doe</h4> 
+             Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
+            </div>
+            
+            <div class="se">
+            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
+            <span>popstar tuyum</span>
+            </div>
+            </b-card>
+          </b-col>
+          <b-col sm="3" class="inf">
+            <b-card class="text">
+            <h4>Joe Doe</h4> 
+            Facebook 4k followers <br/>
+            instagram 11k followers
+            <div class="rr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
+            </div>
+            <div class="se">
+            <span><img src=".././assets/pexels-prateek-katyal-2694434ud.jpg" alt="" class="im "></span>
+            <span>popstar tuyum</span>
+            </div>
             </b-card>
           </b-col>
           

@@ -56,7 +56,7 @@ div{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .link:hover, .brand:hover{
-  color: rgb(228, 137, 27);
+  color: rgb(223, 134, 25);
 }
 .link:active{
   color: rgb(109, 64, 9);

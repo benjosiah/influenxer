@@ -47,16 +47,19 @@ hr{
   color: blue;
 }
 .btt{
-  background-color: rgb(221, 148, 58);
+  background-color: rgb(33, 153, 8);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   color: rgb(252, 248, 248);
 }
 .btt:hover{
-  background-color: rgb(141, 78, 6);
+  background-color: rgb(27, 97, 13);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   color: rgb(245, 234, 234);
+}
+.btt:active{
+  color: rgb(3, 70, 23);
 }
 .btt2{
   background-color: rgb(60, 17, 212);
@@ -78,8 +81,10 @@ hr{
 .inf{
     padding-bottom: 10px;
     margin-top: 10px;
-    min-height: 335px;
+    height: 275px;
+    position: relative;
   }
+  
   .im{
     width:30px;
     height: 30px;
@@ -95,6 +100,14 @@ hr{
     width: 100%;
     text-align: center;
     height: 100px;
+  }
+  .se{
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    border-top: solid #000 1px;
+    border-bottom: solid #000 1px;
+    padding: 10px;
   }
  
   .meme{
