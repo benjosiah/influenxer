@@ -9,7 +9,7 @@
     <b-navbar-nav > 
       <b-navbar-brand route to="/influencer" class="link" active>Micro-Influencers</b-navbar-brand>
       <b-navbar-brand route to="/advert" class="link" >Advertisement</b-navbar-brand>
-      <b-navbar-brand route to="/pricing" class="link" disabled>Pricing</b-navbar-brand>
+      <b-navbar-brand route to="/pricing" class="link">Pricing</b-navbar-brand>
     </b-navbar-nav>
      <b-navbar-nav class="ml-auto">
         <b-navbar-brand route to="/login" class="link">Login</b-navbar-brand>

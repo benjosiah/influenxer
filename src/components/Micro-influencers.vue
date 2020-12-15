@@ -38,6 +38,27 @@
         </b-row>
       </b-container>
     </div>
+    <div class="clients">
+      <b-container>
+        <b-row>
+          <b-col class="rem">
+            <h1>{{influencer}}</h1> 
+            <div>
+              <span>Influencers</span> 
+            </div>
+            
+          </b-col>
+          
+          <b-col class="rem">
+            <h1>{{brand}}</h1>
+            <div>
+              <span>Brands</span> 
+            </div>
+            
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
     <div class="influencers">
        <b-container>
         <span class="header">Influencers</span>
@@ -220,7 +241,19 @@
         <hr>
        </b-container>
     </div>
-
+    <div class="contact">
+         <b-container >
+        
+        <b-row align-v="center" align-h="center">
+          <b-col cols="12" class="search" >
+            <form action="">
+              <input type="email" name="" id="" placeholder="Subscribe to our newsletter" class="rounded border border-info meme">
+              <b-button type="submit" variant="primary">Submit</b-button><br>
+            </form>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
     
   </div>
 </template>
@@ -228,11 +261,13 @@
 <script>
 export default {
   name: 'HelloWorld',
-  data () {
+    data () {
     return {
-      
+      influencer: 76538,
+      brand: 76538
     }
-  }
+    
+  },
 }
 </script>
 
@@ -274,7 +309,12 @@ export default {
 
   .quote{
     background-color: rgb(255, 255, 255);
-    min-height: 100px;
+    min-height: 120px;
+  }
+  .clients{
+    height: 150px;
+    background-color: rgba(255, 220, 196, 0.342);
+    border: darkgreen 1px solid;
   }
   .wrap{
     margin-top: 30px;

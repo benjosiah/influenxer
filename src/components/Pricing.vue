@@ -1,90 +1,116 @@
 <template>
   <div>
-    <section class="banner">
+    <section class="hhr">
       <div class="container wrap"> 
         <div class="row">
-          <div class="col">
-            <b-jumbotron >
-               <template #header class="header"> InFluenxer</template> 
-
-                <template #lead>
-                  This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-                  featured content or information.
-                </template>
-
-                <hr class="my-4 hr">
-
-                <p>
-                  It uses utility classes for typography and spacing to space content out within the larger
-                  container.
-                </p>
-
-                <b-button variant="primary" href="#">Do Something</b-button>
-                <b-button variant="danger" href="#">Do Something Else</b-button>
-              </b-jumbotron>
-          </div>
-          <div class="col-md slide">
-
+          <div class="col ">
+            <h1 class="sup">
+             <span > Pricing</span> 
+           </h1>
           </div>
         </div>
       </div>
     </section>
-    <div class="quote">
-
-    </div>
-    
-    <div class="clients">
-
-    </div>
-    <div class="influencers">
+    <div class="influencer">
        <b-container>
-        <span class="header">What we do</span>
-        <hr>
         <b-row align-h="center">
-          <b-col cols="12" md="3" class="inf">
+          <b-col cols="12" md="3" class="inif">
             <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
+            <h2>Regular Plan</h2> 
+           <h1>N 2000</h1>
             <hr>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            </b-card>
-          </b-col>
-          <b-col cols="12" md="3" class="inf">
-            <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            </b-card>
-          </b-col>
-          <b-col cols="12" md="3" class="inf">
-            <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            </b-card>
-          </b-col>
-          <b-col cols="12" md="3" class="inf">
-            <b-card class="text">
-            <h4>Name</h4> 
-            platform <br/>
-            4k followers
-            <hr>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illum eveniet nobis provident 
-            natus inventore? Dicta architecto, aperiam
-            </b-card>
-          </b-col>
+           <ul>
+                <li>
+                  Connect brands with Micro-influencer
+                </li>
+                <li>
+                  Get brands the perfect design
+                </li>
+                <li>
+                  increase brands and influencers socials
+                </li>
+                <li>
+                  Get paid for advert
+                </li>
+                 <li>
+                  increase brands and influencers socials
+                </li>
+                <li>
+                  Get paid for advert
+                </li>
+              </ul>
+              <hr>
+              <b-nav-form>
           
+          <b-button size="md" class=" my-md-1 btt" route to="/register" >Buy Plan</b-button>
+        </b-nav-form>
+            </b-card>
+          </b-col>
+          <b-col cols="12" md="3" class="inif">
+            <b-card class="text">
+            <h2>Premuin Plan</h2> 
+            <h1>N 10,000</h1>
+            <hr>
+            <ul>
+                <li>
+                  Connect brands with Micro-influencer
+                </li>
+                <li>
+                  Get brands the perfect design
+                </li>
+                <li>
+                  increase brands and influencers socials
+                </li>
+                <li>
+                  Get paid for advert
+                </li>
+                 <li>
+                  increase brands and influencers socials
+                </li>
+                <li>
+                  Get paid for advert
+                </li>
+              </ul>
+              <hr>
+              <b-nav-form>
           
+          <b-button size="md" class=" my-md-1 btt" route to="/register" > Buy Plan</b-button>
+        </b-nav-form>
+            </b-card>
+          </b-col>
+          <b-col cols="12" md="3" class="inif">
+            <b-card class="text">
+            <h2>Gold Plan</h2> 
+            <h1>N 30,000</h1>
+            <hr>
+            <ul>
+                <li>
+                  Connect brands with Micro-influencer
+                </li>
+                <li>
+                  Get brands the perfect design
+                </li>
+                <li>
+                  increase brands and influencers socials
+                </li>
+                <li>
+                  Get paid for advert
+                </li>
+                 <li>
+                  increase brands and influencers socials
+                </li>
+                <li>
+                  Get paid for advert
+                </li>
+              </ul>
+              <hr>
+              <b-nav-form>
+          
+          <b-button size="md" class=" my-md-1 btt" route to="/register" >Buy Plan</b-button>
+        </b-nav-form>
+            </b-card>
+          </b-col>
         </b-row>
-        <hr>
        </b-container>
     </div>
 
@@ -107,12 +133,9 @@ export default {
 <style scoped>
   h1{
     margin:auto;
-    color: #fff;
+    color: rgb(11, 156, 19);
   }
-  .banner{
-    width: 100%;
-    min-height: 600px;
-  }
+  
   .slide{
     background: url(.././assets/pexels-magnus-mueller-2818118.jpg);
     background-size: cover;
@@ -120,12 +143,7 @@ export default {
     /* height: 50%; */
   }
 
-  .jum{
-    background-color: rgba(138, 128, 128, 0);
-     color: #fff;
-     margin-top: 50px;
-     text-align: center;
-  }
+  
   .hr{
    background-color: #fff;
   }
@@ -151,29 +169,32 @@ export default {
     max-height: 1000px;
     background-color: rgb(216, 215, 214);
   }
-  b-col{
-    text-align: center;
-  }
-  .caption{
-    margin-top: 30px;
-  }
-  .caption2{
-    margin-top: 30px;
-    margin: auto;
-  }
+
   .text{
-    background-color: rgb(205, 205, 214);
+     border: solid green;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 10px;
-    height:700px;
+    
   }
-  .inf{
+  .inif{
     padding-bottom: 10px;
-    margin-top: 10px;
+    /* margin-top: 400px; */
+    height:500px;
     
   }
   .lis{
     margin: auto;
     text-align: center;
+  }
+  .influencer{
+    margin-top: 159;
+    height: 700px;
+  }
+  .hhr{
+    height:200px ;
+    margin: 20px;
+    padding: 20px;
+    color: yellow;
   }
 
   

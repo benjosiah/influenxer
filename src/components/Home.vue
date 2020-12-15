@@ -33,8 +33,11 @@
 
         <div class="row">
           <div class="col say">
+            <marquee behavior="" direction="">
              Lorem ipsum, dolor sit amet consectetur adipisicing
               elit. Similique amet velit doloremque porro quas natus? Corrupti
+              elit. Similique amet velit doloremque porro quas natus? Corrupti
+            </marquee>
           </div>
         </div>
         
@@ -67,6 +70,7 @@
                 </li>
               </ul>
             <hr>
+            
            
             </b-card>
           </b-col>
@@ -174,7 +178,19 @@
         <hr>
        </b-container>
     </div>
-
+    <div class="contact">
+         <b-container >
+        
+        <b-row align-v="center" align-h="center">
+          <b-col cols="12" class="search" >
+            <form action="">
+              <input type="email" name="" id="" placeholder="Subscribe to our newsletter" class="rounded border border-info meme">
+              <b-button type="submit" variant="primary">Submit</b-button><br>
+            </form>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
     
   </div>
 </template>
@@ -186,8 +202,25 @@ export default {
     return {
       influencer: 76538,
       brand: 76538
-    },
+    }
     
+  },
+  computed(){
+
+  },
+  mounted(){
+    this.AddInflencer();
+  },
+  methods:{
+    AddInflencer(){
+     var v = 0;
+     var t=this.influencer;
+      while(v < t ){
+        // this.influencer=v;
+        // console.log(v)
+        v =v+1000;
+      }
+    }
   }
 }
 </script>
@@ -256,8 +289,9 @@ export default {
     height: 200px;
   }
   .about{
+    
     min-height:700px;
-    max-height: 1200px;
+    max-height: auto;
     background-color: rgb(216, 215, 214);
   }
  
@@ -275,10 +309,15 @@ export default {
     padding: 20px 0px;
   }
  
-  
+  .caption ul li{
+    padding: 15px;
+      /* background-image: url(.././assets/pexels-rodnae-productions-5915295.jpg); */
+    list-style:square;
+  }
   .lis{
     margin: auto;
     text-align: center;
+    
   }
   
   .say{
@@ -289,11 +328,7 @@ export default {
   .clients h1{
     color: black;
   }
-  .rem{
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-  }
+  
   
 
   

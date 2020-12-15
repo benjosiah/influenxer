@@ -1,5 +1,6 @@
 <template>
   <footer>
+
     <div class="container">
       <div class="d-flex justify-content-between box" >
         <ul>
@@ -53,5 +54,8 @@ li{
 .box{
   margin-top:30px ;
   margin-bottom: 0%;
+}
+.contact{
+  height: 200px;
 }
 </style>

@@ -122,6 +122,19 @@
         <hr>
        </b-container>
     </div>
+    <div class="contact">
+         <b-container >
+        
+        <b-row align-v="center" align-h="center">
+          <b-col cols="12" class="search" >
+            <form action="">
+              <input type="email" name="" id="" placeholder="Subscribe to our newsletter" class="rounded border border-info meme">
+              <b-button type="submit" variant="primary">Submit</b-button><br>
+            </form>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
 
     
   </div>
